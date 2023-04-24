@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+  --clr-primary: #080708;
+  --clr-secondary: #3772ff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: var(--clr-primary);
+  color: #fff;
+}
+/*1 --------------------------------- Header --------------------------------- */
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #181818;
+}
+.search {
+  background-color: transparent;
+  border: 2px solid var(--clr-primary);
+  border-radius: 50px;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+.search:placeholder {
+  color: #7378c5;
+}
+.search:focus {
+  outline: none;
+  background-color: var(--clr-primary);
+}
+
+/*1 ---------------------------------- Main ---------------------------------- */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 3rem 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.movie {
+  cursor: pointer;
+  position: relative;
+  width: 300px;
+  height: 100%;
+  border-radius: 3px;
+  background-color: var(--clr-secondary);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.movie img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.movie-info {
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+.movie-info h3 {
+  margin-top: 0;
+}
+.movie-info span {
+  background-color: var(--clr-primary);
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.movie-info span.green {
+  color: lightgreen;
+}
+.movie-info span.orange {
+  color: lightsalmon;
+}
+.movie-info span.red {
+  color: lightcoral;
+}
+.overview h3 {
+  padding-bottom: 0.5rem;
+}
+.overview p {
+  font-size: 0.85rem;
+}
+.overview {
+  background-color: #fff;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 100%;
+  color: var(--clr-primary);
+  transform: translateY(101%);
+  transition: transform 0.3s ease-in-out;
+}
+.movie:hover .overview {
+  transform: translateY(0%);
+}

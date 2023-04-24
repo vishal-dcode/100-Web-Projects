@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.container {
+  display: flex;
+}
+.l-container {
+  position: relative;
+  flex: 1;
+  background-color: rgb(255, 212, 184);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  transition: flex 0.5s ease-in-out;
+}
+.l-container::after {
+  content: "";
+  position: absolute;
+  background-image: url(./sad.png);
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.r-container {
+  position: relative;
+  flex: 1;
+  background-color: rgb(207, 255, 208);
+  width: 100vw;
+  overflow: hidden;
+  transition: flex 0.5s ease-in-out;
+}
+.r-container::after {
+  content: "";
+  position: absolute;
+  background-image: url(./happy.png);
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  right: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.l-container.active {
+  flex: 2;
+}
+.r-container.active {
+  flex: 2;
+}

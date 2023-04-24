@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 55px;
+  transition: all 0.6s linear;
+}
+#nav.active {
+  width: 400px;
+}
+#nav ul {
+  display: flex;
+  align-items: center;
+  width: 0;
+  padding: 0;
+  margin: 0;
+}
+#nav.active ul {
+  width: 100%;
+}
+#nav ul li {
+  list-style-type: none;
+  white-space: nowrap;
+  transform: rotateY(0deg);
+  opacity: 0;
+  transition: transform 0.6s linear, opacity 0.6s linear;
+}
+nav.active ul li {
+  transform: rotateY(360deg) !important;
+  opacity: 1 !important;
+}
+#nav ul li a {
+  text-decoration: none;
+  color: #141414;
+  font-weight: 500;
+  margin-right: 1.5rem;
+}
+.icon {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  height: 30px;
+  width: 30px;
+}
+.icon .line {
+  position: absolute;
+  height: 1px;
+  width: 20px;
+  background-color: #141414;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transition: transform 0.6s ease;
+}
+.line2 {
+  top: auto !important;
+  bottom: 10px !important;
+}
+nav.active .line1 {
+  transform: rotate(-765deg) translateY(6.5px) !important;
+}
+nav.active .line2 {
+  transform: rotate(765deg) translateY(-6.5px) !important;
+}

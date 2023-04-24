@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.container img {
+  object-fit: cover;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+}

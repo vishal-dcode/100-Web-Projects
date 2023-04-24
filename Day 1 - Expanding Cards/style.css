@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.panel-wrapper {
+  height: 100%;
+  width: 90vw;
+  margin-inline: auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.panel {
+  cursor: pointer;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 2rem;
+  flex: 0.5;
+  transition: flex 0.5s ease-in;
+  overflow: hidden;
+}
+.panel h3 {
+  position: absolute;
+  font-size: 1rem;
+  white-space: nowrap;
+  bottom: -25px;
+  left: 25px;
+  margin: 0;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+.panel.active {
+  flex: 5;
+}
+.panel::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0px;
+  width: 110%;
+  background-image: linear-gradient(to top, rgb(17, 17, 17), rgb(0, 0, 0, 0));
+  transition: height 0.2s ease;
+}
+.panel.active::before {
+  height: 80px;
+}
+.panel.active h3 {
+  opacity: 1;
+  bottom: 25px;
+}
+@media (max-width: 480px) {
+  .panel:is(:nth-of-type(4), :nth-of-type(5)) {
+    display: none;
+  }
+}
+
+/* SOCIAL PANEL CSS */
+.social-panel-container {
+  position: fixed;
+  right: 0;
+  bottom: 80px;
+  transform: translateX(100%);
+  transition: transform 0.4s ease-in-out;
+}
+
+.social-panel-container.visible {
+  transform: translateX(-10px);
+}
+
+.social-panel {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 16px 31px -17px rgba(0, 31, 97, 0.6);
+  border: 5px solid #001f61;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Muli";
+  position: relative;
+  height: 169px;
+  width: 370px;
+  max-width: calc(100% - 10px);
+}
+
+.social-panel button.close-btn {
+  border: 0;
+  color: #97a5ce;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.social-panel button.close-btn:focus {
+  outline: none;
+}
+
+.social-panel p {
+  background-color: #001f61;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 2px 17px 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 235px;
+}
+
+.social-panel p i {
+  margin: 0 5px;
+}
+
+.social-panel p a {
+  color: #ff7500;
+  text-decoration: none;
+}
+
+.social-panel h4 {
+  margin: 20px 0;
+  color: #97a5ce;
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.social-panel ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-panel ul li {
+  margin: 0 10px;
+}
+
+.social-panel ul li a {
+  border: 1px solid #dce1f2;
+  border-radius: 50%;
+  color: #001f61;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+}
+
+.social-panel ul li a:hover {
+  border-color: #ff6a00;
+  box-shadow: 0 9px 12px -9px #ff6a00;
+}
+
+.floating-btn {
+  border-radius: 26.5px;
+  background-color: #001f61;
+  border: 1px solid #001f61;
+  box-shadow: 0 16px 22px -17px #03153b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.floating-btn:hover {
+  background-color: #ffffff;
+  color: #001f61;
+}
+
+.floating-btn:focus {
+  outline: none;
+}
+
+.floating-text {
+  background-color: #001f61;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-family: "Muli";
+  padding: 7px 15px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 998;
+}
+
+.floating-text a {
+  color: #ff7500;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .social-panel-container.visible {
+    transform: translateX(0px);
+  }
+
+  .floating-btn {
+    right: 10px;
+  }
+}

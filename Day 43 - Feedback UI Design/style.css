@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #141414;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctr {
+  width: 400px;
+  background-color: #474747;
+  padding: 2rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ctr .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.face-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-block: 1.5rem;
+}
+.face-ctr {
+  cursor: pointer;
+  flex: 1;
+  border: 1px solid #636363;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.face-ctr:hover {
+  border: 1px solid #ff8019;
+}
+.face-ctr.active {
+  border: 1px solid #ff8019;
+}
+.face-ctr i {
+  font-size: 2rem;
+  margin-block: 0.5rem;
+}
+.send-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: transparent;
+  font-weight: 600;
+}
+
+.ctr .fa-heart {
+  font-size: 2rem;
+  color: rgb(255, 31, 31);
+}
+
+#feedback-ctr * + * {
+  margin-top: 0.5rem;
+}
+#feedback-ctr .message {
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}

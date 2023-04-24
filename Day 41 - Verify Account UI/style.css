@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #141414;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctr {
+  text-align: center;
+  background-color: #222222;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  max-width: 1000px;
+}
+.code-ctr {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.code {
+  border-radius: 5px;
+  font-size: 2.5rem;
+  padding: 0.2rem;
+  height: 60px;
+  width: 50px;
+  text-align: center;
+  background-color: #444444;
+  border: 1px solid #fff;
+  outline: transparent;
+  color: #fff;
+}
+.code::-webkit-outer-spin-button,
+.code::-webkit-inner-spin-button {
+  display: none;
+}
+.code:valid {
+  border-color: orange;
+}

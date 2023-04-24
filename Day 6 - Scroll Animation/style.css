@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+h2 {
+  margin-block: 3rem 2rem;
+}
+.article {
+  margin: 1rem;
+  height: 350px;
+  aspect-ratio: 8/4;
+  display: grid;
+  place-content: center;
+  border-radius: 0.5rem;
+  transform: translateX(600%);
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+.article img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.article:nth-of-type(even) {
+  transform: translateX(-600%);
+}
+.article.show {
+  transform: translateX(0);
+}
