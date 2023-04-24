@@ -17,7 +17,7 @@ Below is a list of all the projects included in this repository:
 | Background Slider | [Demo](#) | A full-screen slider with background images and text.|
 | Button Ripple Effect | [Demo](#) | A button that ripples on click.|
 | Chewing Gum | [Demo](#) | A gum-like animation that follows the cursor.|
-| Content Placeholder | [Demo](#) | Placeholder text that animates as it loads.|
+| Content Placeholder | [Demo](https://codepen.io/Vishal4225/pen/RweKEOV) | Placeholder text that animates as it loads.|
 | Custom Cursor on Hover | [Demo](#) | A cursor that changes on hover.|
 | Custom Cursor | [Demo](#) | A cursor that can be customized with images.|
 | Custom Range Slider | [Demo](#) | A range slider with customized styles.|
