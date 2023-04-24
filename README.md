@@ -3,8 +3,6 @@
 
 Welcome to my repository containing 100+ mini web projects built with HTML, CSS, and JavaScript! Each project is unique and has its own set of features that showcase different aspects of web development.
 ___
-___
-___
 
 ## Project List:
 Below is a list of all the projects included in this repository:
@@ -67,13 +65,9 @@ Below is a list of all the projects included in this repository:
 | Verify Account UI | [Demo](#) | A form that verifies account information.|
 
 ___
-___
-___
 
 ## How to Run the Projects
 To run any of the projects, simply open the project folder and double-click the index.html file to view it in your web browser. Each project has its own README file that includes a description of the project and any necessary instructions.
-___
-___
 ___
 
 ## Contribution
