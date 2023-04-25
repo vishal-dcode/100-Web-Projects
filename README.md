@@ -11,9 +11,12 @@ Below is a list of all the projects included in this repository:
 |--------------|-----------|-------------|
 | Animated Countdown | [Demo](https://codepen.io/Vishal4225/pen/OJBpQpv) | A countdown timer with animated numbers. |
 | Auto Text Effect | [Demo](https://codepen.io/Vishal4225/pen/eYPvVWO) | A text that types itself out automatically.|
+| Animated Gradient| [Demo](https://codepen.io/Vishal4225/pen/RwepBrY) | A fun animated gradient effect with grainy background |
 | Background 3D Boxes | [Demo](https://codepen.io/Vishal4225/pen/OJBpQgZ) | A grid of colorful 3D boxes that move on hover.|
+| Button 3D Effect| [Demo](https://codepen.io/Vishal4225/pen/OJBpwpY) | A dynamic 3d button with vintage UI |
 | Background Slider | [Demo](https://codepen.io/Vishal4225/pen/zYmZRdG) | A full-screen slider with background images and text.|
 | Button Ripple Effect | [Demo](https://codepen.io/Vishal4225/pen/MWPpQvM) | A button that ripples on click.|
+| Button Ink Effect| [Demo](https://codepen.io/Vishal4225/pen/bGjKYVd) | A fun and interactive effect where the button appears to splash ink on the screen when clicked. |
 | Content Placeholder | [Demo](https://codepen.io/Vishal4225/pen/RweKEOV) | Placeholder text that animates as it loads.|
 | Custom Cursor on Hover | [Demo](https://codepen.io/Vishal4225/pen/xxaZNqL) | A cursor that changes on hover.|
 | Custom Cursor | [Demo](https://codepen.io/Vishal4225/pen/RwBBpEp) | A cursor that can be customized with images.|
@@ -59,7 +62,6 @@ Below is a list of all the projects included in this repository:
 | Input Form UI| [Demo](https://codepen.io/Vishal4225/pen/poZOgPp) | An interactive user interface for inputting information with modern design elements. |
 | Grid Style | [Demo](https://codepen.io/Vishal4225/pen/NWBzdNN) | A responsive layout with a grid system, perfect for displaying images or content in a structured way. |
 | Loading Button Animation| [Demo](https://codepen.io/Vishal4225/pen/rNrrGMN) | A dynamic button animation that showcases loading progress or action completion. |
-| Button Ink Effect| [Demo](https://codepen.io/Vishal4225/pen/bGjKYVd) | A fun and interactive effect where the button appears to splash ink on the screen when clicked. |
 
 ---
 

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #141414;
+  inset: 0;
+  height: 100vh;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gradient {
+  --size: 40vw;
+
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient(#e63946, #1d3557);
+  animation: rotate 20s cubic-bezier(1, 0.2, 0.2, 1) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  transition: all 0.25s ease-out;
+}
+
+.noise {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/taimoorshahzada/Film-Grain-Noise-Effect-on-Background-in-Website-using-Pure-CSS/main/noise.gif);
+  opacity: 0.02;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
