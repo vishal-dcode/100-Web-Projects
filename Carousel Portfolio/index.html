@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Carousel Portfolio</title>
+  </head>
+  <body>
+    <nav data-toggled="false" data-transitionable="false">
+      <div id="nav-logo-section" class="nav-section">
+        <a href="#">
+          <h1>LOGO</h1>
+        </a>
+      </div>
+      <div id="nav-mobile-section">
+        <div id="nav-link-section" class="nav-section">
+          <a href="#">ABOUT</a>
+          <a href="#">PROJECTS</a>
+        </div>
+        <div id="nav-social-section" class="nav-section">
+          <a href="https://www.instagram.com/flexcode.io/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/vishal-dcode" target="_blank">
+            <i class="fa-brands fa-github-alt"></i>
+          </a>
+          <a href="https://vishalzen.medium.com/" target="_blank">
+            <i class="fa-brands fa-medium"></i>
+          </a>
+        </div>
+        <div id="nav-contact-section" class="nav-section">
+          <a href="#">GET IN TOUCH</a>
+        </div>
+      </div>
+      <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
+        <span>Menu</span>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+
+    <main>
+      <article data-index="0" data-status="active">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+          <p>A vintage website for an old school barbershop. After going to this shop a few times, I decided that I had to make a redesign for their website.</p>
+        </div>
+        <div class="article-title-section article-section">
+          <h2>Sick Puppy Barber parlour</h2>
+          <i class="fa-light fa-plus-large"></i>
+        </div>
+        <div class="article-nav-section article-section">
+          <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+          <button class="article-nav-button" type="button" onclick="handleRightClick()">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </article>
+      <article data-index="1" data-status="inactive">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+          <p>A selection of various concept designs that I've posted on Dribbble over the years.</p>
+        </div>
+        <div class="article-title-section article-section">
+          <h2>Concept Designs</h2>
+          <i class="fa-light fa-plus-large"></i>
+        </div>
+        <div class="article-nav-section article-section">
+          <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+          <button class="article-nav-button" type="button" onclick="handleRightClick()">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </article>
+      <article data-index="2" data-status="inactive">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+          <p>A selection of various concept designs that I've posted on Dribbble over the years.</p>
+        </div>
+        <div class="article-title-section article-section">
+          <h2>Neato Toledo Lighthouse</h2>
+          <i class="fa-light fa-plus-large"></i>
+        </div>
+        <div class="article-nav-section article-section">
+          <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+          <button class="article-nav-button" type="button" onclick="handleRightClick()">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </article>
+      <article data-index="3" data-status="inactive">
+        <div class="article-image-section article-section"></div>
+        <div class="article-description-section article-section">
+          <p>A selection of various concept designs that I've posted on Dribbble over the years.</p>
+        </div>
+        <div class="article-title-section article-section">
+          <h2>Super Space Blob</h2>
+          <i class="fa-light fa-plus-large"></i>
+        </div>
+        <div class="article-nav-section article-section">
+          <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+            <i class="fa-solid fa-arrow-left-long"></i>
+          </button>
+          <button class="article-nav-button" type="button" onclick="handleRightClick()">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

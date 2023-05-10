@@ -61,16 +61,68 @@ Below is a list of all the projects included in this repository:
 | Verify Account UI | [Demo](https://codepen.io/Vishal4225/pen/QWZpQJR) | A form that verifies account information.|
 | Input Form UI| [Demo](https://codepen.io/Vishal4225/pen/poZOgPp) | An interactive user interface for inputting information with modern design elements. |
 | Grid Style | [Demo](https://codepen.io/Vishal4225/pen/NWBzdNN) | A responsive layout with a grid system, perfect for displaying images or content in a structured way. |
-| Loading Button Animation| [Demo](https://codepen.io/Vishal4225/pen/rNrrGMN) | A dynamic button animation that showcases loading progress or action completion. |
-
----
+| Loading Button Animation | [Demo](https://codepen.io/Vishal4225/pen/rNrrGMN) | A dynamic button animation that showcases loading progress or action completion. |
+| 404 Error Page | [Demo](https://codepen.io/Vishal4225/pen/yLRvzNL) | A creative and visually appealing 404 error page design. |
+| Animated Hamburger | [Demo](https://codepen.io/Vishal4225/pen/jOezoZj) | A visually engaging animated hamburger menu icon. |
+| Article Template | [Demo](https://codepen.io/Vishal4225/pen/JjmprdN) | A stylish and well-structured template for displaying articles or blog posts. |
+| Button Stack Effect | [Demo](https://codepen.io/Vishal4225/pen/PoyRvjB) | An interactive button stack effect that adds depth and interactivity to UI elements. |
+| Stroke Animation | [Demo](https://codepen.io/Vishal4225/pen/ExdQJpa) | A captivating stroke animation that adds visual interest and dynamism to an element. |
+| Calculator | [Demo](https://codepen.io/Vishal4225/pen/jOezxyz) | A functional and visually appealing calculator interface. |
+| Carousel Portfolio | [Demo](https://codepen.io/Vishal4225/pen/YzJaoMm) | A carousel-style portfolio website with a visually appealing design. |
+| Chameleonic Navbar | [Demo](https://codepen.io/Vishal4225/pen/QWZQqbX) | A navbar with a chameleon-like color-changing effect that adapts to the background. |
+| Character Limit | [Demo](https://codepen.io/Vishal4225/pen/ExdERWy) | A character limit counter that provides real-time feedback on the remaining characters. |
+| Checkout Form | [Demo](https://codepen.io/Vishal4225/pen/vYVeBxY) | A well-designed and user-friendly checkout form for e-commerce websites. |
+| Coming Soon Timer | [Demo](https://codepen.io/Vishal4225/pen/yLRKKZP) | A countdown timer for a coming soon page or product launch. |
+| CSS Loader | [Demo](https://codepen.io/Vishal4225/pen/poxeaLX) | An animated CSS loader that indicates the progress of a process or action. |
+| Floating Parallax Effect | [Demo](https://codepen.io/Vishal4225/pen/PoyQvzd) | A mesmerizing parallax effect applied to floating elements on a webpage. |
+| Cursor Movement Effect | [Demo](https://codepen.io/Vishal4225/pen/yLRvzey) | An interactive cursor movement effect that responds to user interaction. |
+| Custom Radio Toggle | [Demo](https://codepen.io/Vishal4225/pen/BaqYwaG) | A customized radio toggle switch for selecting options or preferences. |
+| Dialog Button | [Demo](https://codepen.io/Vishal4225/pen/OJBQxPB) | A visually appealing and interactive button with dialog-like behavior. |
+| E-commerce Website | [Demo](https://codepen.io/Vishal4225/pen/JjmpWjP) | A demo of an eCommerce website with a modern and responsive design. |
+| Floating Social Media Icons | [Demo](https://codepen.io/Vishal4225/pen/VwEyzKp) | Floating social media icons that hover and animate on a webpage. |
+| Full Screen Toggle Button | [Demo](https://codepen.io/Vishal4225/pen/MWPQMmE) | A toggle button that expands and collapses to switch between full-screen and normal modes. |
+| Full Page Cards Navigation | [Demo](https://codepen.io/Vishal4225/pen/vYVdJem) | A navigation system using full-page cards for intuitive and visually appealing browsing. |
+| Gradient Color Generator | [Demo](https://codepen.io/Vishal4225/pen/XWxEqZw) | A tool for generating custom gradient color combinations using sliders. |
+| Gradient Loader | [Demo](https://codepen.io/Vishal4225/pen/PoyRvdx) | An animated loader with a gradient background that adds visual interest during loading processes. |
+| GSAP Hover Animation | [Demo](https://codepen.io/Vishal4225/pen/WNaMZYQ) | A hover animation created using the GSAP animation library to add interactive effects to elements. |
+| GSAP Toggle View Animation | [Demo](https://codepen.io/Vishal4225/pen/JjmpRVE) | An animation that toggles between different views or sections using GSAP animations. |
+| Hidden Icon Animation | [Demo](https://codepen.io/Vishal4225/pen/MWPOeaB) | An interactive animation that reveals hidden icons upon user interaction. |
+| Hover Effect | [Demo](https://codepen.io/Vishal4225/pen/OJBQxVa) | An assortment of creative and visually appealing hover effects for various elements. |
+| Image Hover Animation | [Demo](https://codepen.io/Vishal4225/pen/XWxzKqv) | An image hover effect that adds subtle animations or transformations to images on mouseover. |
+| Image Hover Effect | [Demo](https://codepen.io/Vishal4225/pen/LYgdgxW) | A collection of captivating and visually appealing hover effects for images. |
+| Matrix Rain Effect | [Demo](https://codepen.io/Vishal4225/pen/vYVZYja) | An animated matrix rain effect inspired by the iconic "Matrix" movie series. |
+| Points Of Interest | [Demo](https://codepen.io/Vishal4225/pen/rNqJGxe) | An interactive map with markers indicating points of interest and providing additional information. |
+| Reading Progress Bar | [Demo](https://codepen.io/Vishal4225/pen/OJBQjKo) | A progress bar that indicates the scroll progress of a webpage to enhance the reading experience. |
+| Realistic Loader | [Demo](https://codepen.io/Vishal4225/pen/rNqvBwV) | A realistic loader animation that imitates the appearance of filling up a container or completing a task. |
+| Realistic Toggle Button | [Demo](https://codepen.io/Vishal4225/pen/PoyRgVJ) | A toggle button with a realistic sliding animation that mimics a physical switch. |
+| Responsive Card | [Demo](https://codepen.io/Vishal4225/pen/BaqYwov) | A responsive card component that adjusts its layout and design based on different screen sizes. |
+| Scroll Snap | [Demo](https://codepen.io/Vishal4225/pen/ZEqrXBW) | An implementation of scroll snapping, which creates a smooth and engaging scrolling experience. |
+| Share Button Animation | [Demo](https://codepen.io/Vishal4225/pen/ZEqaOYM) | An animated share button with interactive and eye-catching effects to encourage social media sharing. |
+| Slider Tabs | [Demo](https://codepen.io/Vishal4225/pen/oNaqdVz) | Tabs with a slider functionality that allows users to navigate through content sections. |
+| Toggle Dark-Light More | [Demo](https://codepen.io/Vishal4225/pen/eYPMrmj) | A toggle switch that enables users to switch between dark and light modes for the website's theme. |
+| Typing Practice Game | [Demo](https://codepen.io/Vishal4225/pen/jOezKeO) | A fun and interactive typing practice game that helps users improve their typing speed and accuracy. |
+| Word Scramble Game | [Demo](https://codepen.io/Vishal4225/pen/YzJavzQ) | An engaging word scramble game where players unscramble jumbled words within a time limit. |
 
 ## How to Run the Projects
 
 To run any of the projects, simply open the project folder and double-click the index.html file to view it in your web browser. Alternatively, you can also click on the links provided above to view them on Codepen.
 
----
-
-## Contribution
+## Contribution 🤝
 
 If you would like to contribute to this repository, please feel free to submit a pull request. Contributions are always welcome, whether it's adding new projects or improving existing ones.
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+If you find this project useful, please consider giving it a 🌟 star.
+
+## Issues and Feedback
+
+If you encounter any issues or have feedback, please open an issue on GitHub. We appreciate your feedback and will do our best to address any issues in a timely manner.
+
+## Follow us on GitHub
+
+To stay updated on the latest news and updates, please follow us on [GitHub](https://github.com/vishal-dcode).
